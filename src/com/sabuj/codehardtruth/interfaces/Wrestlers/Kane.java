@@ -1,14 +1,19 @@
 package com.sabuj.codehardtruth.interfaces.Wrestlers;
 
-public class Kane extends Wrestler{
+public class Kane implements Wrestler {
+
+    @Override
+    public void payment() {
+        System.out.println("Paid");
+    }
 
     @Override
     public void themeMusic() {
-        System.out.println("KAAANEEEEEEE");
+        System.out.println("KANEEE");
     }
 
     @Override
     public void finisher() {
-        System.out.println("Choke slam");
+        System.out.println("Choke Slam");
     }
 }

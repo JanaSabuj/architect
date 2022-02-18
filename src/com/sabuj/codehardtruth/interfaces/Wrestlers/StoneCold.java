@@ -1,10 +1,14 @@
 package com.sabuj.codehardtruth.interfaces.Wrestlers;
 
-public class StoneCold extends Wrestler{
+public class StoneCold implements Wrestler{
+    @Override
+    public void payment() {
+        System.out.println("Paid SC");
+    }
 
     @Override
     public void themeMusic() {
-        System.out.println("Stone Cold comes in Mudracer");
+        System.out.println("Mudracer");
     }
 
     @Override
