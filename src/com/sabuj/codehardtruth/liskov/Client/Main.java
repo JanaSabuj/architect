@@ -20,6 +20,9 @@ import com.sabuj.codehardtruth.liskov.performers.Wrestler;
  *
  * static final variables must be assigned through the static block only
  * normal final variables can only be assigned through ctors or at first only
+ *
+ * LISKOV - Subtypes must be substitutable for their base types.
+ * So Undertaker IS A substitute of Wrestler - lsp works
  */
 public class Main {
     public static void main(String[] args) {
@@ -36,5 +39,4 @@ public class Main {
 //        Wrestler ref = new Referee(50, 5000);
         Referee referee = new Referee(25, 2045);
     }
-
 }
