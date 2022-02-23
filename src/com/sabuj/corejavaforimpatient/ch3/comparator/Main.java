@@ -6,7 +6,8 @@ import java.util.Comparator;
 /**
  * Comparator interface is a functional interface
  * only 1 method - compare(a,b)
- * Lambdas can replace 
+ * Lambdas can replace functional interfaces in one line
+ * Behind the scenes, lambdas replace an object which implements a functional interface
  */
 public class Main {
     public static void main(String[] args) {
